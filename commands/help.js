@@ -1,8 +1,8 @@
 const { MessageEmbed } = require('discord.js');
 
 module.exports.config = { 
-     name: 'help',
-     aliases: ['yardım','komutlar']
+     name: '.müzik',
+     aliases: ['music','m']
  }
  
  module.exports.sex = async(client, message, args, config) => {
